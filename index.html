@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Индекс массы тела</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h1>Калькулятор индекса массы тела (ИМТ)</h1>
+  <p>На данной странице с помощью калькулятора ИМТ вы можете рассчитать свой показатель. Достаточно ввести вес и рост в поля ниже.</p>
+
+  <form id="indexOfMassOfBody">
+    <span>Вес, кг:</span>
+    <input id="indexWeight" type="number" required>
+    <span>Рост, см</span>
+    <input id="indexHeight" type="number" required>
+    <button type="submit">Рассчитать</button>
+  </form>
+
+  <div class="imt">
+    <span>ИМТ: </span>
+    <!-- <span class="mass">25.5 - Избыточная масса тела (предожирение)</span> -->
+  </div>
+
+  <script src="js/index.js"></script>
+</body>
+</html>
